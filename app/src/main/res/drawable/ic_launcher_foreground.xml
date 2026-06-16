@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Center visual shadow of the shield to add professional 3D layering depth -->
+    <path
+        android:pathData="M54,23 L81,33 L81,61 C81,79 69,93 54,99 C39,93 27,61 27,61 L27,33 Z"
+        android:fillColor="#25000000" />
+
+    <!-- Solid custom cyber shield representing security protection -->
+    <path
+        android:pathData="M54,21 L81,31 L81,59 C81,77 69,91 54,97 C39,91 27,77 27,59 L27,31 Z"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="21"
+                android:endX="54"
+                android:endY="97"
+                android:type="linear">
+                <item android:color="#0D47A1" android:offset="0.0" />
+                <item android:color="#1976D2" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing secure sync mark inside the shield -->
+    <path
+        android:pathData="M43,56 L51,64 L65,46"
+        android:strokeColor="#E0F7FA"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+</vector>

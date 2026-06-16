@@ -1,0 +1,6 @@
+{
+  "name": "SecureSync",
+  "description": "Secure mobile application integrated with Firebase Auth and Firestore, demonstrating modern MVVM architecture, offline-first Room local caching, and custom Local Cryptography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
